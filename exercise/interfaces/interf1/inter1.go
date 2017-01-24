@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-// ByteCounter exemple
+// WordCounter ByteCounter exemple
 type WordCounter int
 
 func (c *WordCounter) Write(p []byte) (int, error) {
