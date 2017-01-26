@@ -1,0 +1,8 @@
+{{range.}}
+Hi {{.}}
+how are you?
+happy Aid
+miss you
+
+*************************
+{{end}}

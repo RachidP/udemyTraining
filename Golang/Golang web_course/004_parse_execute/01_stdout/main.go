@@ -7,12 +7,13 @@ import (
 )
 
 func main() {
+	var name string
 	tpl, err := template.ParseFiles("tpl.gohtml")
 	if err != nil {
 		log.Fatalln(err)
 	}
-
-	err = tpl.Execute(os.Stdout, nil)
+	name = "Prof. Go lang "
+	err = tpl.Execute(os.Stdout, name)
 	if err != nil {
 		log.Fatalln(err)
 	}
